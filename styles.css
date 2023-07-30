@@ -11,9 +11,10 @@ body {
 }
 
 .title_bar {
-    border: solid, black, 1px;
     font-family: 'Ubuntu', Arial;
     font-size: 12px;
+    color: #FFFFFF;
+    background-color: #273043;
 }
 
 h1 {
