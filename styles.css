@@ -7,19 +7,41 @@ Color Palette:
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Ubuntu:wght@300&display=swap');
 
 body {
-    background-color: #E5E1EE;
-}
-
-.title_bar {
-    font-family: 'Ubuntu', Arial;
-    font-size: 12px;
-    color: #FFFFFF;
     background-color: #273043;
-    margin: 0px;
-    padding: 10px;
 }
 
-h1 {
-    font-family: 'Ubuntu', Arial;
-    font-size: 24px;
+@media (min-width: 600px) {
+        .title_bar {
+        font-family: 'Ubuntu', Arial;
+        font-size: 12px;
+        color: #FFFFFF;
+        background-color: #273043;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-family: 'Ubuntu', Arial;
+        font-size: 24px;
+        height: 400px;
+        background-color: #E5E1EE;
+    }
+}
+
+@media (max-width: 599px) {
+    .title_bar {
+        font-family: 'Ubuntu', Arial;
+        font-size: 15px;
+        color: #FFFFFF;
+        background-color: #273043;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-family: 'Ubuntu', Arial;
+        font-size: 36px;
+        height: 400px;
+        background-color: #E5E1EE;
+    }
 }
