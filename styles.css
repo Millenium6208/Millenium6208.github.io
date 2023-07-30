@@ -13,7 +13,7 @@ body {
 .title_bar {
     border: solid, black, 1px;
     font-family: 'Ubuntu', Arial;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 h1 {
