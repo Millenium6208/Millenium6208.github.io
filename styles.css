@@ -10,14 +10,14 @@ body {
     background-color: #273043;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1100px) {
         .title_bar {
         font-family: 'Ubuntu', Arial;
         font-size: 12px;
         color: #FFFFFF;
         background-color: #273043;
         margin: 0px;
-        padding: 10px;
+        padding: 5px;
     }
 
     h1 {
@@ -28,14 +28,14 @@ body {
     }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 1099px) {
     .title_bar {
         font-family: 'Ubuntu', Arial;
         font-size: 15px;
         color: #FFFFFF;
         background-color: #273043;
         margin: 0px;
-        padding: 10px;
+        padding: 5px;
     }
 
     h1 {
