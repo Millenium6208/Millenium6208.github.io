@@ -12,6 +12,7 @@ body, h1, ul, li {
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    align-items: center;
 }
 
 header {
@@ -39,4 +40,22 @@ a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#welcome {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main div p {
+    margin: 10px;
 }
