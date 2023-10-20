@@ -56,6 +56,27 @@ main {
     font-size: 20px;
 }
 
-main div p {
+img {
+    max-width: 800px;
+}
+
+main div p, main div h1, main div h2 {
+    margin: 10px;
+}
+
+main div ul {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+main div ul li {
+    display: list-item;
+    text-align: left;
+}
+
+main div a {
+    color: black;
+    font-size: 20px;
     margin: 10px;
 }
